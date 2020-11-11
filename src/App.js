@@ -55,7 +55,7 @@ class App extends React.Component {
                     <Route path='/profile/:userId?'
                            render={withSuspense(ProfileContainer)}/>
                     <Route path='/users'
-                           render={() => <UsersContainer/>}/>
+                           render={() => <UsersContainer pageTitle={'Samurai'}/>}/>
                     <Route path='/login'
                            render={() => <LoginPage/>}/>
 
